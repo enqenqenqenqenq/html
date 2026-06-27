@@ -1,0 +1,45 @@
+.container{ 
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.subsubtitle {
+    text-align: end;
+}
+
+.divider {
+    opacity: 50%;
+}
+
+.text-gradient1 {
+    background: linear-gradient(-180deg, #666 33%, #ccc 66%, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient2 {
+    background: linear-gradient(-180deg, #666 33%, #ccc 66%, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient3 {
+    background: linear-gradient(-180deg, #666 33%, #ccc 66%, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+span{
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    color: black;
+}

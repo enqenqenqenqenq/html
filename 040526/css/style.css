@@ -1,0 +1,34 @@
+#three{
+    position:static;
+    background: orange;
+}
+
+#two{
+    position:relative;
+    top: 20px;
+    left: 20px;
+    background: green;
+}
+
+#four{
+    position:absolute;
+    top: 40px;
+    left: 20px;
+    background: red;
+}
+
+#five{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: blue;
+    width: 200px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+html{
+    height: 3000px;
+}

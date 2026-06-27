@@ -1,0 +1,9 @@
+.footnote-ref{
+    font-size: smaller;
+    color: blue;
+    font-weight: bold;
+}
+.container{ 
+    max-width: 700px;
+    margin: 0 auto;
+}
