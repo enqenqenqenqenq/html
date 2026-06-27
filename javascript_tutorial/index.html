@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <section class="task-section">
+            <h2>Задание 1. Расчет стоимости букета</h2>
+            <div class="form-group">
+                <label>Базовая цена (руб.):</label>
+                <input type="number" id="basePrice" value="3500">
+            </div>
+            <div class="form-group">
+                <label>Наценка за срочность (руб.):</label>
+                <input type="number" id="urgencyMarkup" value="500">
+            </div>
+            <div class="form-group">
+                <label>Скидка (руб.):</label>
+                <input type="number" id="discount" value="300">
+            </div>
+            <button onclick="calculatePrice()">Рассчитать стоимость</button>
+            <div class="result-box" id="priceResult"></div>
+        </section>
+        <!-- а чё мне делить на две папки. в одной сделаю -->
+        <section class="task-section">
+            <h2>Задание 2. Определение бонуса</h2>
+            <div class="form-group">
+                <label>Сумма заказа (руб.):</label>
+                <input type="number" id="orderAmount" value="3200">
+            </div>
+            <button onclick="checkBonus()">Определить бонус</button>
+            <div class="result-box" id="bonusResult"></div>
+        </section>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
